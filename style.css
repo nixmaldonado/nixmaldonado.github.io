@@ -6,7 +6,7 @@ body {
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-    background-image: url("desktop.jpg");
+    background-image: url("img/desktop.jpg");
      background-size: cover;
 /*      background-color: #1abc9c;*/ /* Green */
       color: #ffffff;
@@ -47,7 +47,7 @@ body {
 
   .first-container{
      background-image: url("desktop.jpg");
-     background-size: 100% 100%;
+
   }
 
   h3{
