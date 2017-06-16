@@ -6,7 +6,9 @@ body {
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-      background-color: #1abc9c; /* Green */
+    background-image: url("desktop.jpg");
+     background-size: cover;
+/*      background-color: #1abc9c;*/ /* Green */
       color: #ffffff;
   }
   .bg-2 { 
@@ -18,7 +20,7 @@ body {
       color: #555555;
   }
   .bg-4 { 
-      background-color: #2f2f2f; /* Black Gray */
+      background-color: #708090; /* Black Gray */
       color: #fff;
   }
   .container-fluid {
@@ -37,3 +39,23 @@ body {
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
   }
+
+  .slogan{
+    letter-spacing: 12px;
+    font-style:italic;
+    text-align: right;
+  }
+
+  .first-container{
+     background-image: url("desktop.jpg");
+     background-size: 100% 100%;
+  }
+
+  h3{
+    letter-spacing: 6px;
+  }
+ 
+ .descripcion{
+  margin-left: 100px;
+  margin-right: 100px;
+ }
